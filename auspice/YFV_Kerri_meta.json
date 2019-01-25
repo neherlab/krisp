@@ -1,0 +1,238 @@
+{
+  "annotations": {
+    "2K": {
+      "end": 6886,
+      "start": 6817,
+      "strand": 1
+    },
+    "C": {
+      "end": 481,
+      "start": 118,
+      "strand": 1
+    },
+    "M": {
+      "end": 973,
+      "start": 481,
+      "strand": 1
+    },
+    "NS1": {
+      "end": 3508,
+      "start": 2452,
+      "strand": 1
+    },
+    "NS2a": {
+      "end": 4180,
+      "start": 3508,
+      "strand": 1
+    },
+    "NS2b": {
+      "end": 4570,
+      "start": 4180,
+      "strand": 1
+    },
+    "NS3": {
+      "end": 6439,
+      "start": 4570,
+      "strand": 1
+    },
+    "NS4a": {
+      "end": 6817,
+      "start": 6439,
+      "strand": 1
+    },
+    "NS4b": {
+      "end": 7636,
+      "start": 6886,
+      "strand": 1
+    },
+    "NS5": {
+      "end": 10351,
+      "start": 7636,
+      "strand": 1
+    },
+    "env": {
+      "end": 2452,
+      "start": 973,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 10862,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {
+    "Faria et al": {
+      "n": 65
+    },
+    "genbank import": {
+      "n": 60
+    }
+  },
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "Senegal",
+          "#511EA8"
+        ],
+        [
+          "Gambia",
+          "#4928B4"
+        ],
+        [
+          "cote_d_ivoire",
+          "#4334BF"
+        ],
+        [
+          "Ethiopia",
+          "#4041C7"
+        ],
+        [
+          "trinidad_and_tobago",
+          "#3F50CC"
+        ],
+        [
+          "Brazil",
+          "#56A0AF"
+        ],
+        [
+          "Bolivia",
+          "#7CB878"
+        ],
+        [
+          "Venezuela",
+          "#86BB6E"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "host": {
+      "color_map": [
+        [
+          "human",
+          "#E68234"
+        ],
+        [
+          "monkey",
+          "#4B8FC1"
+        ],
+        [
+          "NHP",
+          "#B9BC4A"
+        ],
+        [
+          "mosquito",
+          "#6BB18E"
+        ]
+      ],
+      "key": "host",
+      "legendTitle": "Host",
+      "menuItem": "Host Species",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "color_map": [
+        [
+          "MinasGerais",
+          "#511EA8"
+        ],
+        [
+          "Bahia",
+          "#3F50CC"
+        ],
+        [
+          "RioJaneiro",
+          "#4784C7"
+        ],
+        [
+          "EspiritoSanto",
+          "#5CA7A4"
+        ]
+      ],
+      "key": "state",
+      "legendTitle": "state",
+      "menuItem": "state"
+    }
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "Bolivia": {
+        "latitude": -17.0,
+        "longitude": -65.0
+      },
+      "Brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "Ethiopia": {
+        "latitude": 9.0,
+        "longitude": 39.5
+      },
+      "Gambia": {
+        "latitude": 13.5,
+        "longitude": -15.5
+      },
+      "Senegal": {
+        "latitude": 14.5,
+        "longitude": -14.25
+      },
+      "Venezuela": {
+        "latitude": 8.0,
+        "longitude": -66.0
+      },
+      "cote_d_ivoire": {
+        "latitude": 7.9897371,
+        "longitude": -5.5679457
+      },
+      "trinidad_and_tobago": {
+        "latitude": 10.8677845,
+        "longitude": -60.9821066
+      }
+    },
+    "state": {
+      "Bahia": {
+        "latitude": -12.5797,
+        "longitude": -41.7007
+      },
+      "EspiritoSanto": {
+        "latitude": -19.1834,
+        "longitude": -40.3089
+      },
+      "MinasGerais": {
+        "latitude": -18.5122,
+        "longitude": -44.555
+      },
+      "RioJaneiro": {
+        "latitude": -22.9068,
+        "longitude": -43.1729
+      }
+    }
+  },
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Nextrain@KRISP: Analysis of the 2016-2017 Brazil Yellow Fever Virus Outbreak",
+  "updated": "25 Jan 2019",
+  "virus_count": 93
+}
